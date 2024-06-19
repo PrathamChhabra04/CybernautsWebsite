@@ -72,7 +72,7 @@ body {
 }
 .moving {
   /* background-color: red; */
-  font-family: "Poppins";
+  font-family: "Techi";
   text-transform: uppercase;
   width: 97%;
   margin-bottom: 2vw;
@@ -153,14 +153,18 @@ body {
   font-family: "Poppins";
   font-weight: 500;
 }
-.number {
+.number-1,
+.number-2,
+.number-3 {
   justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 2vw;
   font-family: "Poppins";
 }
-.number h4 {
+.number-1 h4,
+.number-2 h4,
+.number-3 h4 {
   font-weight: 400;
   font-size: 5.5vw;
 }
@@ -168,4 +172,119 @@ body {
   width: 28%;
   border-left: 2px white solid;
   border-right: 2px white solid;
+}
+.number-1 h4::after {
+  content: "7+";
+  animation: changing-num-1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-delay: 0.2s;
+}
+.number-2 h4::after {
+  content: "10+";
+  animation: changing-num-2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.number-3 h4::after {
+  content: "9+";
+  animation: changing-num-3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+}
+
+@keyframes changing-num-1 {
+  0% {
+    content: "0+";
+  }
+  10% {
+    content: "1+";
+  }
+  20% {
+    content: "2+";
+  }
+  30% {
+    content: "3+";
+  }
+  40% {
+    content: "4+";
+  }
+  50% {
+    content: "5+";
+  }
+  60% {
+    content: "6+";
+  }
+  70% {
+    content: "7+";
+  }
+}
+@keyframes changing-num-2 {
+  0% {
+    content: "0+";
+  }
+  10% {
+    content: "1+";
+  }
+  20% {
+    content: "2+";
+  }
+  30% {
+    content: "3+";
+  }
+  40% {
+    content: "4+";
+  }
+  50% {
+    content: "5+";
+  }
+  60% {
+    content: "6+";
+  }
+  70% {
+    content: "7+";
+  }
+  80% {
+    content: "8+";
+  }
+  90% {
+    content: "9+";
+  }
+  100% {
+    content: "10+";
+  }
+}
+@keyframes changing-num-3 {
+  0% {
+    content: "0+";
+  }
+  10% {
+    content: "1+";
+  }
+  20% {
+    content: "2+";
+  }
+  30% {
+    content: "3+";
+  }
+  40% {
+    content: "4+";
+  }
+  50% {
+    content: "5+";
+  }
+  60% {
+    content: "6+";
+  }
+  70% {
+    content: "7+";
+  }
+  80% {
+    content: "8+";
+  }
+  90% {
+    content: "9+";
+  }
 }
