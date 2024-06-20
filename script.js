@@ -16,7 +16,7 @@ elem.addEventListener("mouseleave", function () {
 });
 elem.addEventListener("mousemove", function (dets) {
   gsap.to(chotu, {
-    x: dets.x - 50,
-    y: dets.y - 60,
+    x: dets.x - 95,
+    y: dets.y - 95,
   });
 });
