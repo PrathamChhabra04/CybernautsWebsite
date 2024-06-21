@@ -1,0 +1,95 @@
+body{
+    background-color: #111110;
+}
+
+#imgpara{
+    width: 450px;
+    height: 450px;
+    
+    margin-left: 80px ;
+    margin-top: 90px ;
+    float: left;
+}
+
+#img{
+    background-image: url(Cybernauts.png);
+    width: 171px;
+    height: 163.69px;
+    background-size: contain;
+    border-radius: 6.54px;
+}
+
+#para{
+    height:152px;
+    width: 416px;
+    padding-top: 30px ;
+    
+    color: #E5E7F6;
+    font-family: Poppins;
+    font-size: 18.39px;
+    
+
+}
+
+#links1{
+    width: 250px;
+    height: 450px;
+   
+    float: left;
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+
+li{
+    list-style: none;
+    line-height: 68.1px;
+    font-size: 28.36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+
+}
+
+#links2{
+    width: 300px;
+    height: 450px;
+   
+    float: left;
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+
+#links3{
+    width: 200px;
+    height: 450px;
+   
+    float: left;
+    margin-top: 40px ;
+    margin-left: 50px;
+  
+}
+#bottomline1{
+    width: 1050px;
+    height: 50px;
+   
+    bottom: 120px;
+    position: absolute;
+    right: 250px;
+    font-size: 15.64px;
+    color: #F1B2F2;
+    letter-spacing: 2.26px;
+
+}
+#bottomline2{
+    width: 500px;
+    height: 50px;
+  
+    bottom: 20px;
+    position: absolute;
+    right: 530px;
+    font-size: 14px;
+    color: #FFFFFF;
+   
+    font-family: Poppins;
+}
+
+
